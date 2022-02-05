@@ -625,7 +625,7 @@ client.SetCommonBearerToken("MDc0ZTg5YmU4Yzc5MjAzZGJjM2ZiMzkz")
 client.R().SetBasicAuth("myusername", "mypassword").Get("https://api.example.com/profile")
 
 // Set bearer token for a request, will override client's bearer token setting.
-client.R().SetBearerToken("NGU1ZWYwZDJhNmZhZmJhODhmMjQ3ZDc4").Get("https://api.example.com/profile")
+client.R().SetBearerAuthToken("NGU1ZWYwZDJhNmZhZmJhODhmMjQ3ZDc4").Get("https://api.example.com/profile")
 ```
 
 ## <a name="Download-Upload">Download and Upload</a>
